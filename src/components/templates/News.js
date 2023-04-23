@@ -18,7 +18,7 @@ const StyledBackgroundSection = styled(BackgroundImage)`
 const News = () => {
   const { allContentfulNews, image } = useStaticQuery(graphql`
     {
-      image: file(relativePath: { eq: "radio.jpg" }) {
+      image: file(relativePath: { eq: "radio.jpeg" }) {
         childImageSharp {
           gatsbyImageData(
             placeholder: BLURRED

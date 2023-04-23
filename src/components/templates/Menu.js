@@ -18,7 +18,7 @@ const StyledBackgroundSection = styled(BackgroundImage)`
 const Menu = () => {
   const data = useStaticQuery(graphql`
     query {
-      image: file(relativePath: { eq: "danie1.jpg" }) {
+      image: file(relativePath: { eq: "danie1.jpeg" }) {
         childImageSharp {
           gatsbyImageData(
             placeholder: BLURRED

@@ -19,7 +19,7 @@ const Restaurant = () => {
   const { contentfulRestaurant, image, contentfulRestaurantPhotos } =
     useStaticQuery(graphql`
       query {
-        image: file(relativePath: { eq: "restaurant1.jpg" }) {
+        image: file(relativePath: { eq: "restaurant1.jpeg" }) {
           childImageSharp {
             gatsbyImageData(
               placeholder: BLURRED

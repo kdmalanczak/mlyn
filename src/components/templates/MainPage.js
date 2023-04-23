@@ -10,7 +10,7 @@ import GoogleMap from "../atoms/GoogleMap"
 const MainPage = () => {
   const { contentfulAboutUs, contentfulEvent } = useStaticQuery(graphql`
     query {
-      # file(relativePath: { eq: "mill.jpg" }) {
+      # file(relativePath: { eq: "mill.jpeg" }) {
       #   childImageSharp {
       #     fluid(quality: 100, maxWidth: 1920) {
       #       ...GatsbyImageSharpFluid

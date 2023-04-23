@@ -17,7 +17,7 @@ const StyledBackgroundSection = styled(BackgroundImage)`
 const GuestHouse = () => {
   const data = useStaticQuery(graphql`
     {
-      image: file(relativePath: { eq: "pensjonat2.jpg" }) {
+      image: file(relativePath: { eq: "pensjonat2.jpeg" }) {
         childImageSharp {
           gatsbyImageData(
             placeholder: BLURRED
