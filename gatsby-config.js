@@ -43,16 +43,9 @@ module.exports = {
     "gatsby-plugin-vanilla-extract",
     {
       resolve: `gatsby-source-filesystem`,
-      options: { path: `./src/images/` },
+      options: { path: `src/images/` },
     },
-    {
-      resolve: "gatsby-plugin-react-svg",
-      options: {
-        rule: {
-          include: /images/,
-        },
-      },
-    },
+    "gatsby-plugin-react-svg",
     {
       resolve: "gatsby-plugin-manifest",
       options: {
