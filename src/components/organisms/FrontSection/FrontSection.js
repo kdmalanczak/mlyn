@@ -1,12 +1,11 @@
 import React, { useRef, useContext, useEffect } from "react"
 import { DarkenBackground, FrontBox } from "./FrontSection.styles"
-import { NavContext } from "../../templates/layout"
 import Logo from "../../atoms/Logo"
 import Background from "../../atoms/Background"
 import { useOnScreen } from "../../../hooks/useOnScreen"
 import LogoText from "../../atoms/Text/LogoText"
 import ButtonScroll from "../../atoms/ButtonScroll"
-import { StaticImage } from "gatsby-plugin-image"
+import { NavContext } from "../../templates/Layout"
 
 const FrontSection = ({ imageComponent, front = false, title }) => {
   const ref = useRef()

@@ -1,6 +1,6 @@
 import * as React from "react"
 import { graphql } from "gatsby"
-import Layout from "../components/templates/layout"
+import Layout from "../components/templates/Layout"
 import SEOHead from "../components/head"
 import Contact from "../components/templates/Contact"
 
@@ -13,7 +13,7 @@ export default function Homepage(props) {
 }
 export const Head = (props) => {
   const { homepage } = props.data
-  return <SEOHead {...homepage}  title="Kontakt" />
+  return <SEOHead {...homepage} title="Kontakt" />
 }
 export const query = graphql`
   {
