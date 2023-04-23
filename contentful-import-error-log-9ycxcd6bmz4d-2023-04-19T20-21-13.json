@@ -1,0 +1,560 @@
+[
+  {
+    "ts": "2023-04-19T18:22:40.341Z",
+    "level": "error",
+    "error": {
+      "name": "NotFound",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "blm4zeeq0l7e"
+            }
+          },
+          "id": "6DJgoaH1TSAoqCEwLd43mo",
+          "type": "Asset",
+          "createdAt": "2023-01-10T20:50:32.985Z",
+          "updatedAt": "2023-01-12T17:25:06.431Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "publishedVersion": 11,
+          "publishedAt": "2023-01-12T17:25:06.431Z",
+          "firstPublishedAt": "2023-01-10T20:51:09.542Z",
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          },
+          "publishedCounter": 4,
+          "version": 12,
+          "publishedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "4mp7BUWgAkTDJ8ucasjjQx"
+            }
+          }
+        },
+        "fields": {
+          "title": {
+            "en-US": "heart"
+          },
+          "description": {
+            "en-US": ""
+          },
+          "file": {
+            "en-US": {
+              "url": "//images.ctfassets.net/blm4zeeq0l7e/6DJgoaH1TSAoqCEwLd43mo/37edb677afc46f99a3dd042b1ce1334c/Property_1_heart.png",
+              "details": {
+                "size": 1425,
+                "image": {
+                  "width": 72,
+                  "height": 72
+                }
+              },
+              "fileName": "Property 1=heart.png",
+              "contentType": "image/png"
+            }
+          }
+        }
+      },
+      "data": {
+        "status": 404,
+        "statusText": "Not Found",
+        "message": "The resource could not be found.",
+        "details": {
+          "type": "Space",
+          "id": "9ycxcd6bmz4d"
+        },
+        "request": {
+          "url": "/spaces/9ycxcd6bmz4d/environments/master/assets/6DJgoaH1TSAoqCEwLd43mo",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.45; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.0.0; os macOS/v20.0.0;",
+            "CF-Sequence": "b1f57e8f-080a-44fb-8e50-ba18f30943bd",
+            "Authorization": "Bearer ...eEYag",
+            "User-Agent": "axios/0.27.2",
+            "Content-Length": 297
+          },
+          "method": "put",
+          "payloadData": "{\"metadata\":{\"tags\":[]},\"fields\":{\"title\":{\"en-US\":\"heart\"},\"description\":{\"en-US\":\"\"},\"file\":{\"en-US\":{\"contentType\":\"image/png\",\"fileName\":\"Property 1=heart.png\",\"upload\":\"https://images.ctfassets.net/blm4zeeq0l7e/6DJgoaH1TSAoqCEwLd43mo/37edb677afc46f99a3dd042b1ce1334c/Property_1_heart.png\"}}}}"
+        },
+        "requestId": "5f19b542-1376-4836-89cf-d30eec864fd0"
+      }
+    }
+  },
+  {
+    "ts": "2023-04-19T18:24:29.784Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "9ycxcd6bmz4d"
+            }
+          },
+          "id": "1CnTrUmN5ebFi779fuSdY3",
+          "type": "Entry",
+          "createdAt": "2023-04-19T18:24:00.803Z",
+          "updatedAt": "2023-04-19T18:24:00.803Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "6f5Cbs895z2UAMQ4Zrplnp"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "6f5Cbs895z2UAMQ4Zrplnp"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "homepageBenefit"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6DJgoaH1TSAoqCEwLd43mo"
+              }
+            }
+          },
+          "heading": {
+            "en-US": "Zero downtime"
+          },
+          "text": {
+            "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6DJgoaH1TSAoqCEwLd43mo"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/9ycxcd6bmz4d/environments/master/entries/1CnTrUmN5ebFi779fuSdY3/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.45; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.0.0; os macOS/v20.0.0;",
+            "CF-Sequence": "b1f57e8f-080a-44fb-8e50-ba18f30943bd",
+            "Authorization": "Bearer ...eEYag",
+            "X-Contentful-Version": 1,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "ee22232a-a6dd-4f39-8dd8-c3bc22f05cc2"
+      }
+    }
+  },
+  {
+    "ts": "2023-04-19T18:25:35.479Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "9ycxcd6bmz4d"
+            }
+          },
+          "id": "5Uynn2dxlI8rNK9PuTjHFW",
+          "type": "Entry",
+          "createdAt": "2023-04-19T18:24:13.311Z",
+          "updatedAt": "2023-04-19T18:24:13.311Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "6f5Cbs895z2UAMQ4Zrplnp"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "6f5Cbs895z2UAMQ4Zrplnp"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "homepageBenefit"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6DJgoaH1TSAoqCEwLd43mo"
+              }
+            }
+          },
+          "heading": {
+            "en-US": "Be excellent to each other"
+          },
+          "text": {
+            "en-US": "We’re open, kind, and honest. We don’t play games, and we’re here to be our best selves."
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6DJgoaH1TSAoqCEwLd43mo"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/9ycxcd6bmz4d/environments/master/entries/5Uynn2dxlI8rNK9PuTjHFW/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.45; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.0.0; os macOS/v20.0.0;",
+            "CF-Sequence": "b1f57e8f-080a-44fb-8e50-ba18f30943bd",
+            "Authorization": "Bearer ...eEYag",
+            "X-Contentful-Version": 1,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "e2a60904-4d64-4ce1-82ca-397d6f585725"
+      }
+    }
+  },
+  {
+    "ts": "2023-04-19T18:26:23.206Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "9ycxcd6bmz4d"
+            }
+          },
+          "id": "1CnTrUmN5ebFi779fuSdY3",
+          "type": "Entry",
+          "createdAt": "2023-04-19T18:24:00.803Z",
+          "updatedAt": "2023-04-19T18:24:00.803Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "6f5Cbs895z2UAMQ4Zrplnp"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "6f5Cbs895z2UAMQ4Zrplnp"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "homepageBenefit"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6DJgoaH1TSAoqCEwLd43mo"
+              }
+            }
+          },
+          "heading": {
+            "en-US": "Zero downtime"
+          },
+          "text": {
+            "en-US": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6DJgoaH1TSAoqCEwLd43mo"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/9ycxcd6bmz4d/environments/master/entries/1CnTrUmN5ebFi779fuSdY3/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.45; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.0.0; os macOS/v20.0.0;",
+            "CF-Sequence": "b1f57e8f-080a-44fb-8e50-ba18f30943bd",
+            "Authorization": "Bearer ...eEYag",
+            "X-Contentful-Version": 1,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "fa522ff6-1826-418c-a5d5-504947df20f2"
+      }
+    }
+  },
+  {
+    "ts": "2023-04-19T18:26:23.663Z",
+    "level": "error",
+    "error": {
+      "name": "UnresolvedLinks",
+      "entity": {
+        "metadata": {
+          "tags": [
+          ]
+        },
+        "sys": {
+          "space": {
+            "sys": {
+              "type": "Link",
+              "linkType": "Space",
+              "id": "9ycxcd6bmz4d"
+            }
+          },
+          "id": "5Uynn2dxlI8rNK9PuTjHFW",
+          "type": "Entry",
+          "createdAt": "2023-04-19T18:24:13.311Z",
+          "updatedAt": "2023-04-19T18:24:13.311Z",
+          "environment": {
+            "sys": {
+              "id": "master",
+              "type": "Link",
+              "linkType": "Environment"
+            }
+          },
+          "createdBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "6f5Cbs895z2UAMQ4Zrplnp"
+            }
+          },
+          "updatedBy": {
+            "sys": {
+              "type": "Link",
+              "linkType": "User",
+              "id": "6f5Cbs895z2UAMQ4Zrplnp"
+            }
+          },
+          "publishedCounter": 0,
+          "version": 1,
+          "automationTags": [
+          ],
+          "contentType": {
+            "sys": {
+              "type": "Link",
+              "linkType": "ContentType",
+              "id": "homepageBenefit"
+            }
+          }
+        },
+        "fields": {
+          "image": {
+            "en-US": {
+              "sys": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6DJgoaH1TSAoqCEwLd43mo"
+              }
+            }
+          },
+          "heading": {
+            "en-US": "Be excellent to each other"
+          },
+          "text": {
+            "en-US": "We’re open, kind, and honest. We don’t play games, and we’re here to be our best selves."
+          }
+        }
+      },
+      "data": {
+        "status": 422,
+        "statusText": "Unprocessable Entity",
+        "message": "Validation error",
+        "details": {
+          "errors": [
+            {
+              "name": "notResolvable",
+              "link": {
+                "type": "Link",
+                "linkType": "Asset",
+                "id": "6DJgoaH1TSAoqCEwLd43mo"
+              },
+              "path": [
+                "fields",
+                "image",
+                "en-US"
+              ]
+            }
+          ]
+        },
+        "request": {
+          "url": "/spaces/9ycxcd6bmz4d/environments/master/entries/5Uynn2dxlI8rNK9PuTjHFW/published",
+          "headers": {
+            "Accept": "application/json, text/plain, */*",
+            "Content-Type": "application/vnd.contentful.management.v1+json",
+            "X-Contentful-User-Agent": "app contentful.import/8.5.45; feature library-import; sdk contentful-management.js/0.0.0-determined-by-semantic-release; platform node.js/v20.0.0; os macOS/v20.0.0;",
+            "CF-Sequence": "b1f57e8f-080a-44fb-8e50-ba18f30943bd",
+            "Authorization": "Bearer ...eEYag",
+            "X-Contentful-Version": 1,
+            "User-Agent": "axios/0.27.2"
+          },
+          "method": "put",
+          "payloadData": null
+        },
+        "requestId": "ca1cd799-c0fa-4aa0-991e-0272e49dece1"
+      }
+    }
+  },
+  {
+    "ts": "2023-04-19T18:26:23.663Z",
+    "level": "error",
+    "error": "Could not publish the following entities: 1CnTrUmN5ebFi779fuSdY3, 5Uynn2dxlI8rNK9PuTjHFW"
+  }
+]
